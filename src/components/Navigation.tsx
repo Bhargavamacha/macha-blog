@@ -58,6 +58,7 @@ export default function Navigation() {
             }
             .active ul {
               opacity: 1;
+              background-color: #2d2d2d;
               transform: translateY(0);
             }
             li {
