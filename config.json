@@ -1,19 +1,19 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://bhargavamacha.info",
+  "site_title": "Bhargava's webpage",
+  "site_description": "You've stumbled upon Bhargava's personal website. Checkout what I am working on these days and let's get connected!",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Bhargava"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Next.js"
     },
     {
       "keyword": "React"
     }
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "machabhargava",
+  "github_account": "Bhargavamacha"
 }
