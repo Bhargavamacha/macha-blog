@@ -11,7 +11,7 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <img src="/images/me.jpeg" className="image" />
+          <img src="/images/me.png" className="image" />
           <h1>
             Hi there! I am Bhargava Sai Macha<span className="fancy">.</span>
           </h1>

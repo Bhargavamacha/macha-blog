@@ -13,10 +13,15 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>home</a>
             </Link>
           </li>
           {/* <li>
+            <Link href="/about">
+              <a className={router.pathname === "/about" ? "active" : null}>about</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/posts">
               <a
                 className={
@@ -43,13 +48,13 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
               display: flex;
               flex-direction: column;
               justify-content: center;
               z-index: 1;
               transform: translateY(100%);
               transition: opacity 200ms;
+              font-weight:400;
             }
             .active ul {
               opacity: 1;
@@ -64,7 +69,8 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color:#15847d;
+              font-weight:700;
             }
 
             @media (min-width: 769px) {

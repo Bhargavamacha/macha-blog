@@ -1,6 +1,6 @@
 .content {
   font-family: "Ubuntu", sans-serif;
-  color: #222;
+  color: rgb(222 219 219);
   font-weight: 200;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .content a {
-  color: blue;
+  color: #15847d;;
   text-decoration: underline;
 }
 
